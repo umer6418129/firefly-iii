@@ -45,7 +45,7 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
  */
 class ShowController extends Controller
 {
-    public const string RESOURCE_KEY = 'webhooks';
+    public const  RESOURCE_KEY = 'webhooks';
     private WebhookRepositoryInterface $repository;
 
     public function __construct()

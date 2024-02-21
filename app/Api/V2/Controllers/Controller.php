@@ -53,7 +53,7 @@ class Controller extends BaseController
 {
     use ValidatesUserGroupTrait;
 
-    protected const string CONTENT_TYPE = 'application/vnd.api+json';
+    protected const  CONTENT_TYPE = 'application/vnd.api+json';
     protected ParameterBag $parameters;
 
     public function __construct()

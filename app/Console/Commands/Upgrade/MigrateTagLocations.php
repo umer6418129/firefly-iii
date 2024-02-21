@@ -36,7 +36,7 @@ class MigrateTagLocations extends Command
 {
     use ShowsFriendlyMessages;
 
-    public const string CONFIG_NAME = '500_migrate_tag_locations';
+    public const  CONFIG_NAME = '500_migrate_tag_locations';
 
     protected $description          = 'Migrate tag locations.';
 

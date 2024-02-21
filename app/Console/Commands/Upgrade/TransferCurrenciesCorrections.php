@@ -40,7 +40,7 @@ class TransferCurrenciesCorrections extends Command
 {
     use ShowsFriendlyMessages;
 
-    public const string CONFIG_NAME = '480_transfer_currencies';
+    public const  CONFIG_NAME = '480_transfer_currencies';
     protected $description          = 'Updates transfer currency information.';
     protected $signature            = 'firefly-iii:transfer-currencies {--F|force : Force the execution of this command.}';
     private array                         $accountCurrencies;

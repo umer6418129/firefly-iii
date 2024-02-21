@@ -34,7 +34,7 @@ class MigrateRecurrenceType extends Command
 {
     use ShowsFriendlyMessages;
 
-    public const string CONFIG_NAME = '550_migrate_recurrence_type';
+    public const  CONFIG_NAME = '550_migrate_recurrence_type';
 
     protected $description          = 'Migrate transaction type of recurring transaction.';
 

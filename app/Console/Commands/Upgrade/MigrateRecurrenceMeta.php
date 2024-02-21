@@ -37,7 +37,7 @@ class MigrateRecurrenceMeta extends Command
 {
     use ShowsFriendlyMessages;
 
-    public const string CONFIG_NAME = '481_migrate_recurrence_meta';
+    public const CONFIG_NAME = '481_migrate_recurrence_meta';
 
     protected $description          = 'Migrate recurrence meta data';
 

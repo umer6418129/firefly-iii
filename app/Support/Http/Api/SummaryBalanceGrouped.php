@@ -29,7 +29,7 @@ use Illuminate\Support\Facades\Log;
 
 class SummaryBalanceGrouped
 {
-    private const string SUM             = 'sum';
+    private const  SUM             = 'sum';
     private TransactionCurrency $default;
     private array               $amounts = [];
     private array               $keys;

@@ -42,7 +42,7 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
  */
 class MessageController extends Controller
 {
-    public const string RESOURCE_KEY = 'webhook_messages';
+    public const  RESOURCE_KEY = 'webhook_messages';
     private WebhookRepositoryInterface $repository;
 
     public function __construct()

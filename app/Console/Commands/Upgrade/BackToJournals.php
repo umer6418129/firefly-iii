@@ -38,7 +38,7 @@ class BackToJournals extends Command
 {
     use ShowsFriendlyMessages;
 
-    public const string CONFIG_NAME = '480_back_to_journals';
+    public const  CONFIG_NAME = '480_back_to_journals';
 
     protected $description          = 'Move meta data back to journals, not individual transactions.';
 

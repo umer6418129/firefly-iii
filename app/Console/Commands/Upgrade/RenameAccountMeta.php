@@ -35,7 +35,7 @@ class RenameAccountMeta extends Command
 {
     use ShowsFriendlyMessages;
 
-    public const string CONFIG_NAME = '480_rename_account_meta';
+    public const  CONFIG_NAME = '480_rename_account_meta';
 
     protected $description          = 'Rename account meta-data to new format.';
 

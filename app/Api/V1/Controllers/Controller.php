@@ -50,7 +50,7 @@ abstract class Controller extends BaseController
     use DispatchesJobs;
     use ValidatesRequests;
 
-    protected const string CONTENT_TYPE = 'application/vnd.api+json';
+    protected const  CONTENT_TYPE = 'application/vnd.api+json';
 
     /** @var array<int, string> */
     protected array        $allowedSort;

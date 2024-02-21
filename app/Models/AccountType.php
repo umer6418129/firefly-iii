@@ -37,7 +37,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
  * @property int                  $id
  * @property null|Carbon          $created_at
  * @property null|Carbon          $updated_at
- * @property string               $type
+ * @property                $type
  * @property Account[]|Collection $accounts
  * @property null|int             $accounts_count
  *
@@ -55,20 +55,20 @@ class AccountType extends Model
 {
     use ReturnsIntegerIdTrait;
 
-    public const string ASSET            = 'Asset account';
-    public const string BENEFICIARY      = 'Beneficiary account';
-    public const string CASH             = 'Cash account';
-    public const string CREDITCARD       = 'Credit card';
-    public const string DEBT             = 'Debt';
-    public const string DEFAULT          = 'Default account';
-    public const string EXPENSE          = 'Expense account';
-    public const string IMPORT           = 'Import account';
-    public const string INITIAL_BALANCE  = 'Initial balance account';
-    public const string LIABILITY_CREDIT = 'Liability credit account';
-    public const string LOAN             = 'Loan';
-    public const string MORTGAGE         = 'Mortgage';
-    public const string RECONCILIATION   = 'Reconciliation account';
-    public const string REVENUE          = 'Revenue account';
+    public const  ASSET            = 'Asset account';
+    public const  BENEFICIARY      = 'Beneficiary account';
+    public const  CASH             = 'Cash account';
+    public const  CREDITCARD       = 'Credit card';
+    public const  DEBT             = 'Debt';
+    public const  DEFAULT          = 'Default account';
+    public const  EXPENSE          = 'Expense account';
+    public const  IMPORT           = 'Import account';
+    public const  INITIAL_BALANCE  = 'Initial balance account';
+    public const  LIABILITY_CREDIT = 'Liability credit account';
+    public const  LOAN             = 'Loan';
+    public const  MORTGAGE         = 'Mortgage';
+    public const  RECONCILIATION   = 'Reconciliation account';
+    public const  REVENUE          = 'Revenue account';
 
     protected $casts
                                          = [

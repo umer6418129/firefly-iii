@@ -31,7 +31,7 @@ use Illuminate\Support\Facades\Route;
  */
 class RouteServiceProvider extends ServiceProvider
 {
-    public const string   HOME = '/';
+    public const    HOME = '/';
     protected $namespace       = '';
 
     /**

@@ -37,7 +37,7 @@ class CCLiabilities extends Command
 {
     use ShowsFriendlyMessages;
 
-    public const string CONFIG_NAME = '480_cc_liabilities';
+    public const  CONFIG_NAME = '480_cc_liabilities';
     protected $description          = 'Convert old credit card liabilities.';
     protected $signature            = 'firefly-iii:cc-liabilities {--F|force : Force the execution of this command.}';
 

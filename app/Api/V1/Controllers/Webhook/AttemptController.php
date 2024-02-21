@@ -43,7 +43,7 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
  */
 class AttemptController extends Controller
 {
-    public const string RESOURCE_KEY = 'webhook_attempts';
+    public const  RESOURCE_KEY = 'webhook_attempts';
     private WebhookRepositoryInterface $repository;
 
     public function __construct()
